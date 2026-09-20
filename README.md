@@ -1,105 +1,43 @@
-# Flight Data Analysis (India - 2019)
+> **Earlier Python/EDA project.** Kept public to show my learning progression. My current featured analytics work is available on my [GitHub profile](https://github.com/codernav01).
 
-## 📌 Project Overview
-This project performs **Exploratory Data Analysis (EDA)** on a dataset of **10,799 Indian domestic flights (2019)**.  
-The dataset includes important features such as airline, journey date, source, destination, route, departure & arrival time, duration, number of stops, additional services, and ticket prices.
+# Flight Price Analysis — India 2019
 
-The main goal is to uncover **hidden patterns, pricing trends, and travel insights** using data analysis techniques.
+## Project Overview
 
----
+Exploratory analysis of an Indian domestic-flight dataset using Python, Pandas, Matplotlib, and Seaborn. The notebook investigates price patterns across airlines, routes, stops, journey periods, and additional flight information.
 
-## Objectives
-- Analyze distribution of flights based on number of stops  
-- Identify the most expensive and cheapest flight categories  
-- Understand price variations across different source cities  
-- Explore flight frequency trends by day and month  
-- Evaluate the impact of additional services on ticket pricing  
+## Dataset
 
----
+- approximately **10.8K records**
+- airline, source, destination, route, duration, stops, additional information, and price fields
+- source workbook included in the repository
 
-## Dataset Information
-- **Rows:** 10,799  
-- **Columns:** 11  
-- **File Used:** `Data_Train.xlsx`  
-- **Dataset Type:** Indian Domestic Flights  
+## Skills Practised
 
-### Key Features
-- **Airline** – Name of the airline  
-- **Source** – Departure city  
-- **Destination** – Arrival city  
-- **Route** – Flight path  
-- **Duration** – Total travel time  
-- **Total_Stops** – Number of stops  
-- **Additional_Info** – Extra services  
-- **Price** – Ticket price (INR)  
+- data cleaning
+- type conversion
+- feature engineering
+- group-based analysis
+- exploratory visualization
+- price-pattern interpretation
 
----
+## Analytical Questions
 
-## Tools & Technologies
-- **Python**  
-- **Pandas**  
-- **Matplotlib**  
-- **Seaborn**  
-- **Jupyter Notebook**  
+- How do prices vary by airline and route?
+- How do stops relate to price?
+- Which source/destination combinations appear most frequently?
+- How do journey dates and months vary in the dataset?
+- How does additional service information relate to observed ticket prices?
 
----
+## Repository Structure
 
-## Key Insights
-- Delhi → Cochin is the most frequent route  
-- Flights with more stops tend to have higher prices  
-- Flights with no check-in baggage are generally cheaper  
-- Business-class related services increase ticket prices significantly  
-- Certain months show higher flight frequency (peak travel demand)  
-- Ticket prices vary across different airlines and source cities  
-
----
-
-## Skills Demonstrated
-- Data Cleaning & Preprocessing  
-- Exploratory Data Analysis (EDA)  
-- Data Visualization  
-- Feature Engineering  
-- Insight Generation  
-
----
-
-## How to Run the Project
-1. Clone this repository  
-   ```bash
-   git clone https://github.com/your-username/Flight-Data-Analysis-2019.git
-   ```
-
-2. Open the notebook  
-   ```bash
-   jupyter notebook
-   ```
-
-3. Run all cells to reproduce the analysis  
-
----
-
-## Project Structure
-```
-Flight-Data-Analysis-2019/
-│
-├── Data_Train.xlsx
+```text
+Flight-Price-Analysis-India-2019/
+├── README.md
 ├── Flight-Data-Analysis-2019.ipynb
-└── README.md
+└── Data_Train (1) (1).xlsx
 ```
 
----
+## Portfolio Context
 
-## Conclusion
-This project demonstrates how **Exploratory Data Analysis (EDA)** can extract meaningful insights from real-world airline data.  
-It highlights the relationship between **flight duration, number of stops, additional services, and ticket prices**, while strengthening core skills in **data analysis and visualization**.
-
----
-
-## Author
-**Navjot Singh**  
-- Data Science Enthusiast  
-- Python & Data Analysis Learner  
-
----
-
-## ⭐ If you found this project useful, don't forget to star the repository!
+This is an earlier EDA project and is intentionally preserved rather than hidden. It shows the stage where I was strengthening Python cleaning, visualization, and exploratory-analysis fundamentals before moving into multi-table validation and end-to-end business analytics.
